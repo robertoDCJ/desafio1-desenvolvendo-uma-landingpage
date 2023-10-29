@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    position: relative;
 }
 
 #header {
@@ -70,6 +71,7 @@ body {
 #text-content p {
     font-size: 24px;
     font-weight: 300;
+    line-height: 30px;
 }
 
 #form {
@@ -113,7 +115,7 @@ input[type="email"] {
     margin-bottom: 88px;
 }
 
-button {
+button[type="submit"] {
     color: #ffffff;
     font-size: 30px;
     font-weight: 700;
@@ -121,4 +123,12 @@ button {
     background-color: #C07212;
     border-radius: 10px;
     margin-bottom: 87px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+button[type="submit"]:hover {
+    transform: translateY(-14px);
+    transition-duration: 0.5s;
+    box-shadow: 0 15px 20px rgba(255, 255, 255, 0.24); 
 }
