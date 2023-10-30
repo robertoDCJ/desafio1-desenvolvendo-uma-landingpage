@@ -121,4 +121,11 @@ button {
     background-color: #C07212;
     border-radius: 10px;
     margin-bottom: 87px;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    transform: translateY(-14px);
+    transition-duration: 0.5s;
+    box-shadow: 0 15px 20px rgba(255, 255, 255, 0.24); 
 }
