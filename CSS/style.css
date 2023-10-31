@@ -123,39 +123,4 @@ button {
     background-color: #C07212;
     border-radius: 10px;
     margin-bottom: 87px;
-    cursor: pointer;
-    transition-duration: 0.5s;
-}
-
-button:hover {
-    transform: translateY(-14px);
-    transition-duration: 0.5s;
-    box-shadow: 0 15px 20px rgba(255, 255, 255, 0.24); 
-}
-
-/* MEDIA QUERIES HEADER */
-@media (max-width: 1060px) {
-    #header {
-        padding-left: 2%;
-    }
-
-    #header h1 {
-        font-size: 46px;
-    }
-}
-
-@media (max-width: 900px) {
-    #header h1 {
-        font-size: 38px;
-    }
-}
-
-@media (max-width: 715px) {
-    #header h1 {
-        font-size: 30px;
-    }
-
-    #header p {
-        font-size: 16px;
-    }
 }
