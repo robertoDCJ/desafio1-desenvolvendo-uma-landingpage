@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    position: relative;
 }
 
 #header {
@@ -18,7 +17,7 @@ body {
 }
 
 #header h1 {
-    font-size: 60px;
+    font-size: 54px;
     margin-bottom: 20px;
     letter-spacing: -2.5%;
 }
@@ -32,6 +31,7 @@ body {
     background-color: #f9f9f9;
     display: grid;
     grid-auto-flow: column;
+    gap: 5px;
 }
 
 .info {
@@ -131,4 +131,31 @@ button:hover {
     transform: translateY(-14px);
     transition-duration: 0.5s;
     box-shadow: 0 15px 20px rgba(255, 255, 255, 0.24); 
+}
+
+/* MEDIA QUERIES HEADER */
+@media (max-width: 1060px) {
+    #header {
+        padding-left: 2%;
+    }
+
+    #header h1 {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 900px) {
+    #header h1 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 715px) {
+    #header h1 {
+        font-size: 30px;
+    }
+
+    #header p {
+        font-size: 16px;
+    }
 }
