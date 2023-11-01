@@ -129,6 +129,7 @@ button {
     background-color: #C07212;
     border-radius: 10px;
     margin-bottom: 87px;
+<<<<<<< HEAD
     cursor: pointer;
     transition-duration: 0.5s;
 }
@@ -189,4 +190,6 @@ button:hover {
     .info span {
         font-size: 40px;
     }
+=======
+>>>>>>> 9bc3cd8502bb0fd7fa0d41c1ea4e3376c6021db7
 }
